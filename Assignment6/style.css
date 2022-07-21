@@ -1,0 +1,19 @@
+body{
+  background-color: #7180AC;
+
+}
+
+/*********************************/
+/******** nav-list styles ********/
+/*********************************/
+#nav-list{
+  list-style-type: none
+}
+
+#nav-list li{
+  display: Inline;
+}
+
+#nav-list li:hover{
+  color: #A8D0DB;
+}

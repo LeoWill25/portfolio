@@ -1,0 +1,7 @@
+body{
+  /* background-color: Navy blue */
+  background-image: url('Assets/tokyoStore.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

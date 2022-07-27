@@ -3,5 +3,6 @@ body{
   background-image: url('Assets/tokyoStore.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat
+ color:#ffff;
 }

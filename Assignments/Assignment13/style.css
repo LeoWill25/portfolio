@@ -1,0 +1,40 @@
+body{
+  /* background-color: cyan; */
+}
+
+.container{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  /* grid-template-columns: repeat(5,1fr); */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 100px 1fr 1fr 1fr 100px;
+  grid-template-areas:
+  "header header header header header"
+"sidenav content content content content"
+"sidenav content content content content"
+"sidenav content content content content"
+"footer footer footer footer footer"
+}
+
+.header{
+  background-color: #8FED90;
+  grid-area: header;
+}
+
+.sidenav{
+  background-color: #DDFEDC;
+  grid-area: sidenav;
+}
+
+.content{
+  background-color: cyan;
+}
+
+.footer{
+  background-color:
+}
+
+.nested{
+
+}

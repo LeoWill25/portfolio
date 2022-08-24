@@ -28,13 +28,34 @@ body{
 }
 
 .content{
-  background-color: cyan;
+  /* background-color: cyan; */
+  grid-area: content;
 }
 
 .footer{
-  background-color:
+  background-color:#008001;
+  grid-area: footer;
 }
 
 .nested{
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+}
+.cat{
+  display: block;
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.dog{
+  display: block;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.p-1, .p-2{
 
 }

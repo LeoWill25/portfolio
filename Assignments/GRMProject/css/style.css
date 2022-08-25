@@ -1,0 +1,48 @@
+.bg-red{
+  background-color: red;}
+.bg-cyan{
+  background-color: cyan;}
+.bg-pink{
+  background-color: pink;}
+.bg-lime{
+  background-color: limegreen;}
+.bg-blue{
+  background-color: blue;}
+.bg-yellow{
+  background-color: yellow;}
+.bg-black{
+  background-color: black;}
+.bg-magenta{
+  background-color: magenta}
+  .bg-orange{
+    background-color: orange;
+  }
+  .bg-purple{
+    background-color: purple;
+  }
+  .bg-gold{
+    background-color: gold;
+  }
+
+  /*****************************/
+  /******* Mobile Style ********/
+  /*****************************/
+
+  .page{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "Header"
+    "Carousel"
+    "Callout"
+    "EventCallout"
+    "Blog"
+    "Footer"
+  }
+
+  header{
+    grid-area: Header;
+    height: 150px
+  }

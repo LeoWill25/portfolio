@@ -1,48 +1,119 @@
-.bg-red{
-  background-color: red;}
-.bg-cyan{
-  background-color: cyan;}
-.bg-pink{
-  background-color: pink;}
-.bg-lime{
-  background-color: limegreen;}
-.bg-blue{
-  background-color: blue;}
-.bg-yellow{
-  background-color: yellow;}
-.bg-black{
-  background-color: black;}
-.bg-magenta{
-  background-color: magenta}
-  .bg-orange{
-    background-color: orange;
-  }
-  .bg-purple{
-    background-color: purple;
-  }
-  .bg-gold{
-    background-color: gold;
-  }
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-  /*****************************/
-  /******* Mobile Style ********/
-  /*****************************/
+body{
+  display: flex;
+  width: 100%;
+  height:100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://www.georgerrmartin.com/theme/overall-bg.jpg);
+}
 
-  .page{
-    display: grid;
-    width: 100%;
-    height: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "Header"
-    "Carousel"
-    "Callout"
-    "EventCallout"
-    "Blog"
-    "Footer"
-  }
+.container{
+  display: flex;
+  justify-content: center;
+  min-width: 100vh;
+  height: 100vh;
+}
 
-  header{
-    grid-area: Header;
-    height: 150px
-  }
+.header{
+  display: flex;
+  justify-content: center;
+
+}
+
+.shield{
+  background-image: url(https://i.imgur.com/LFQPWGl.gif);
+  width: 3.5%;
+  height:
+
+}
+.social img{
+  position: relative;
+  bottom: 80px;
+}
+
+.textsearch{
+  position: relative;
+  width: 80px;
+  height: 20px;
+  left: 10px;
+}
+
+.hdr-menu{
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hdr-menu li{
+  display: inline-flex;
+  font-size: 16.5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 7px;
+}
+
+.hdr-menu li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.hdr-menu a:hover{
+  background-color: #fff;
+  padding: 6px;
+  position: relative;
+  top: 6px;
+}
+
+.main{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 960px;
+  height: 100vh;
+  background-color: grey;
+  margin-top: 142.5px;
+}
+
+.gallery{
+  background-image: url();
+  margin: auto;
+  margin-top: 5px;
+  width: 950px;
+  height: 300px;
+  background-color: #bbb;
+}
+
+.cards{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards article{
+  width: 310px;
+  height: 140px;
+  background-color: green;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid #aaa;
+}
+
+.card1{
+  background-image: url(https://georgerrmartin.com/wp-content/uploads/2016/09/GRRM-SMALL-cocteau3.jpg);
+}
+
+.card2{
+    background-image: url(https://georgerrmartin.com/wp-content/uploads/2019/02/newsletter-home.png);
+}
+
+.card3{
+    background-image: url(https://georgerrmartin.com/wp-content/uploads/2019/02/newsletter-home.png);
+}

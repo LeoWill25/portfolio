@@ -8,19 +8,19 @@ nav{
 }
 
 #navbar1{
-  background-color: skyblue;
+  background-color: tan;
   position: fixed;
   width: 100%;
 }
 
 #navbar2{
-  background-color: seagreen;
+  background-color: pink;
   position: relative;
   top: 150px;
 }
 
 #navbar3{
-  background-color: lavender;
+  background-color: skyblue;
   position: absolute;
   bottom: 100px;
 }
@@ -34,9 +34,10 @@ li{
 }
 
 a{
-  color: black;
+  color: brown;
   text-decoration: none;
 }
 a:hover{
-  color: white; 
+  color: white;
+  text-decoration: none;
 }

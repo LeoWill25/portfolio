@@ -1,5 +1,28 @@
+body{
+  height: 1500px;
+  position:relative;
+}
+
 nav{
   background-color: skyblue;
+}
+
+#navbar1{
+  background-color: skyblue;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar2{
+  background-color: seagreen;
+  position: relative;
+  top: 150px;
+}
+
+#navbar3{
+  background-color: lavender;
+  position: absolute;
+  bottom: 100px;
 }
 
 li{

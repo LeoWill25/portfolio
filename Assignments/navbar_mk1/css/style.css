@@ -38,5 +38,6 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: white; 
+  color: white;
+  text-decoration: none;
 }

@@ -154,29 +154,28 @@ background-image:url(../assets/abstractBackground.jpg);
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
-7
-155
-156
-157
-158
-#hero h1,
-#hero h4 {
-color: white;
-159
 }
-160
-161
-#hero a {
-162
-background-color: white;
-163
-color: indigo;
-164
-165
-border: 2px solid indigo;
-border-radius:24px;
-166
-display: inline-block;
+#hero h1,
+#hero h4{
+  color: white;
+}
+
+#hero a{
+  background-color: white;
+  color: indigo;
+  border: 2px solid indigo;
+  border-radius: 24px;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 12px;
+  min-width: 150px;
+  transition: transform 0.25s;
+}
+
+#hero a:hover,
+.card a:hover {
+  transform: scale(1.1);
+}
 /****************************************************************************
   Card styles
 ****************************************************************************/

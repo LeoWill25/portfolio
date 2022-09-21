@@ -59,8 +59,8 @@ footer a:hover {
   grid-template-areas:
   "navArea navArea navArea"
   "heroArea heroArea heroArea"
-  ". threecardsArea ."
-  ". galleryArea ."
+  "threecardsArea"
+  "galleryArea"
   "footerArea footerArea footerArea";
 }
 
@@ -84,7 +84,7 @@ footer {
   grid-area: footerArea;
 }
 section {
-  border: 4px solid indigo;
+  border: 3px solid indigo;
 }
 
 /****************************************************************************
@@ -286,6 +286,6 @@ flex: 1;
  }
 
  #gallery5{
-   columns:
+   columns:2 auto;
  }
 }

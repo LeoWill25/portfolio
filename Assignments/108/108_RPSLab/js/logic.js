@@ -16,7 +16,7 @@ function getRandomPick() {
 
 function getResultText(comuputerPick, playerPick){
   const TIE = "Its a tie!";
-  const WIN = "You Win!";
+  const WIN = "WHAT!";
   const LOSE = "HA! you Lose!";
 
   if (comuputerPick == playerPick) {
@@ -82,4 +82,48 @@ case SCISSORS:
 let result = document.getElementById("result");
 
 result.innerHTML = getResultText(myPick, yourPick);
+}
+
+let closers = document.querySelectorAll(".closer");
+for (let i = 0; i < closers.length; i++) {
+  let closer = closers[i];
+  closer.onclick = function() {
+    let popupContainer = document.getElementById("popupContainer");
+    popupContainer.classList.remove("popped");
+    resetGame()
+  };
+}
+
+function resetGame(){
+let rockLeft = document.getElementById ("rockLeft") ;
+let paperLeft = document.getElementById ("paperLeft") ;
+let scissorsLeft = document.getElementById ("scissorsLeft") ;
+let rockRight = document.getElementById ("rockRight") ;
+let paperRight = document.getElementById( "paperRight") ;
+let scissorsRight = document.getElementById ("scissorsRight")
+let yourPickText = document.getElementById ("yourPickText" ) ;
+let myPickText = document.getElementById ("myPickText" ) ;
+yourPickText.innerHTML
+=
+myPickText.innerHTML
+=
+rockLeft.classList.remove ("selected") ;
+paperLeft.classList.remove("selected");
+scissorsLeft.classList. remove ("selected") ;
+rockRight.classList.remove("selected");
+paperRight.classList.remove ("selected") ;
+scissorsRight.classList,remove("selected");
+
+let result = document.getElementById("result");
+result. innerHTML = "";
+}
+
+function popAndplay(yourPick) {
+  let popupContainer = document.getElementById("popupContainer")
+  let game = document.getElementById("game");
+
+  popupContainer.classList.add("popped");
+  game.classList.add("animate");
+
+  playGame(yourPick);
 }

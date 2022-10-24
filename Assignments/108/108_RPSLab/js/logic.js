@@ -96,8 +96,8 @@ for (let i = 0; i < closers.length; i++) {
     popupContainer.classList.remove("popped");
     resetGame();
   };
+ }
 }
-
 function resetGame(){
 let rockLeft = document.getElementById ("rockLeft") ;
 let paperLeft = document.getElementById ("paperLeft") ;

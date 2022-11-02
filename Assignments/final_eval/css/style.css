@@ -1,8 +1,7 @@
 /* Google Font API imports - found at https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Chango&family=Encode+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Encode+Sans&family=Merriweather+Sans:wght@500&display=swap');
 
 /*****************************************************************************
   Heading, Link, and Misc. Styles
@@ -12,22 +11,24 @@
 }
 
 body {
+  background-color: lightgrey;
   margin: 0;
 }
 
 h1,
 h2,
 h3 {
+color: green;
   font-family: 'Chango', serif;
 }
 
 a {
-  font-family: 'Encode Sans', serif;
+  font-family: 'Merriweather Sans', serif;
 }
 
 h4,
 p {
-  font-family: 'Encode Sans', serif;
+  font-family: 'Merriweather Sans', serif;
 }
 
 h1 {
@@ -197,7 +198,7 @@ nav h2 {
 
 .cardItem {
   border: 3px solid Darkgreen;
-  background-color: lightgreen;
+  background-color: white;
   color: darkgreen;
   margin: 48px 24px 24px;
   padding: 12px 12px 24px;

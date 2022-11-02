@@ -1,5 +1,8 @@
 /* Google Font API imports - found at https://fonts.google.com/ */
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Encode+Sans&display=swap');
+
 
 /*****************************************************************************
   Heading, Link, and Misc. Styles
@@ -15,16 +18,16 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Secular One', serif;
+  font-family: 'Chango', serif;
 }
 
 a {
-  font-family: 'Secular One', serif;
+  font-family: 'Encode Sans', serif;
 }
 
 h4,
 p {
-  font-family: 'Assistant', serif;
+  font-family: 'Encode Sans', serif;
 }
 
 h1 {
@@ -152,7 +155,7 @@ nav h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("../assets/Overgrown_city.jpg");
+  background-image: url("../assets/PlantTower.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -160,7 +163,7 @@ nav h2 {
 
 #hero h1,
 #hero h4 {
-  color: Darkgreen;
+  color: lightgreen;
 }
 
 /****************************************************************************
@@ -168,8 +171,8 @@ nav h2 {
 ****************************************************************************/
 #hero a,
 .cardItem a {
-  background-color: white;
-  color: Darkgreen;
+  background-color: lightgreen;
+  color: green;
   border: solid 4px  green;
   border-radius: 24px;
   display: inline-block;
@@ -194,6 +197,7 @@ nav h2 {
 
 .cardItem {
   border: 3px solid Darkgreen;
+  background-color: lightgreen;
   color: darkgreen;
   margin: 48px 24px 24px;
   padding: 12px 12px 24px;
